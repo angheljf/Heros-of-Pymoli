@@ -17,7 +17,7 @@ Like many others in its genre, the game is free-to-play, but players are encoura
 * Of the 753 active and inactive players, the vast majority are male (87%). There also exists, a smaller, but notable proportion of female players (15%).
 
 * Our peak age demographic falls between 20-24 (63.37 %) with secondary groups falling between 15-19 (23.61%) and 25-29 (17.53%).  
-* The demographic that spends the most money is the 20-24 with 1,114.06 dollars total purchase value. 
+* The demographic that spends the most money is the 20-24 with >$1,114.06 dollars total purchase value. 
 
 -----
 
@@ -54,19 +54,6 @@ player_count
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -121,8 +108,7 @@ summary_df.style.format({'Average Price':"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+ 
 <table id="T_65be6b3e_9b48_11e8_8a26_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -182,8 +168,7 @@ gender_demographics.sort_values(["Total Count"], ascending = False).style.format
 
 
 
-<style  type="text/css" >
-</style>  
+  
 <table id="T_65d8f618_9b48_11e8_aa10_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -254,8 +239,7 @@ gender_demographics.style.format({"Average Purchase Value":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+ 
 <table id="T_65dc17f6_9b48_11e8_811d_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -336,8 +320,7 @@ age_demographics.style.format({"Percentage of Players":"{:,.2f}"})
 
 
 
-<style  type="text/css" >
-</style>  
+
 <table id="T_65e0d570_9b48_11e8_bc53_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -428,8 +411,7 @@ age_demographics.style.format({"Average Purchase Price":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+
 <table id="T_65e390a8_9b48_11e8_a83f_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -536,8 +518,7 @@ formatted_spenders.style.format({"Average Purchase Total":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+ 
 <table id="T_65e7844c_9b48_11e8_869e_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -627,8 +608,7 @@ popular_formatted.style.format({"Item Price":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+ 
 <table id="T_65eb56c6_9b48_11e8_bd67_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank" ></th> 
@@ -705,8 +685,7 @@ popular_formatted.style.format({"Item Price":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+ 
 <table id="T_65edfd18_9b48_11e8_96aa_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank" ></th> 
