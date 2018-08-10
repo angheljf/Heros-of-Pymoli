@@ -51,19 +51,7 @@ player_count
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -118,8 +106,7 @@ summary_df.style.format({'Average Price':"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+
 <table id="T_8eab2a8a_9c53_11e8_bca9_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -179,8 +166,7 @@ gender_demographics.sort_values(["Total Count"], ascending = False).style.format
 
 
 
-<style  type="text/css" >
-</style>  
+
 <table id="T_8ec2dd4c_9c53_11e8_8bab_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -251,8 +237,7 @@ gender_demographics.style.format({"Average Purchase Value":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+ 
 <table id="T_8ec591b8_9c53_11e8_885f_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -333,8 +318,7 @@ age_demographics.style.format({"Percentage of Players":"{:,.2f}"})
 
 
 
-<style  type="text/css" >
-</style>  
+ 
 <table id="T_8ec9961e_9c53_11e8_9e37_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -425,8 +409,7 @@ age_demographics.style.format({"Average Purchase Price":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+
 <table id="T_8ecc59ba_9c53_11e8_8417_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -533,8 +516,7 @@ formatted_spenders.style.format({"Average Purchase Total":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+
 <table id="T_8ecfe534_9c53_11e8_9489_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -624,8 +606,7 @@ popular_formatted.style.format({"Item Price":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+
 <table id="T_8ed36afe_9c53_11e8_8b74_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank" ></th> 
@@ -702,8 +683,7 @@ popular_formatted.style.format({"Item Price":"${:,.2f}",
 
 
 
-<style  type="text/css" >
-</style>  
+
 <table id="T_8ed59b08_9c53_11e8_842e_d49a20d1630f" > 
 <thead>    <tr> 
         <th class="blank" ></th> 
