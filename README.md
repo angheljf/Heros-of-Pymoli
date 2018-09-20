@@ -1,7 +1,7 @@
 
-### Heroes Of Pymoli Data Analysis
+# Heroes Of Pymoli Data Analysis
 
-#### Background 
+## Background 
 
 Congratulations! After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
 
@@ -9,7 +9,7 @@ Like many others in its genre, the game is free-to-play, but players are encoura
 
 -----
 
-#### Observable Trends
+## Observable Trends
 
 * Of the 1163 active players, the vast majority are male (84%). There also exists, a smaller, but notable proportion of female players (14%).
 
